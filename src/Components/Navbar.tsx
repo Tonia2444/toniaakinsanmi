@@ -16,7 +16,7 @@ export const myMenu: Menu[] = [
 ];
 
 const Navbar = () => {
-  const [myMenus, setMyMenus] = useState("");
+  const [, setMyMenus] = useState("");
 
   const [navbar, setNavbar] = useState(false);
 
